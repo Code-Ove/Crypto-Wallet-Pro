@@ -85,7 +85,7 @@ src/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/Code-Ove/Crypto-Wallet-Pro.git
 cd crypto-wallet-pro
 ```
 
