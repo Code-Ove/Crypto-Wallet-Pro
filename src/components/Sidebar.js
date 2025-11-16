@@ -146,14 +146,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         { path: '/contract-interactor', icon: '⚙️', label: 'Contract Interactor' },
         { path: '/batch-transactions', icon: '📦', label: 'Batch Transactions' },
         { path: '/script-runner', icon: '📜', label: 'Script Runner' },
-        { path: '/dapp-browser', icon: '🌐', label: 'DApp Browser' },
-        { path: '/multisig', icon: '👥', label: 'Multi-Sig Wallet' },
-        { path: '/token-discovery', icon: '🔍', label: 'Token Discovery' },
-    ];
-
-    const analyticsFeatures = [
-        { path: '/advanced-charts', icon: '📊', label: 'Advanced Charts' },
+       { path: '/advanced-charts', icon: '📊', label: 'Advanced Charts' },
         { path: '/achievements', icon: '🏆', label: 'Achievements' },
+        
     ];
 
 
@@ -271,5 +266,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         </>
     );
 };
+
 
 export default Sidebar;
